@@ -1,0 +1,49 @@
+body, h1, h2, h3, h4, h5, h6, ul, p, input, form,video {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../in/1_assets_img_pages_home_dorado-desktop.jpg) no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+ul, li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+input,button {
+	border: 0 none;
+	outline-style: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.w {
+	width: 1300px;
+	margin: 0 auto;
+}
+body .mr0 {
+	margin-right: 0;
+}

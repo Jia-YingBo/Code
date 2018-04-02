@@ -1,0 +1,392 @@
+
+/*背景视频*/
+video {
+	margin-top: -159px;
+}
+.video {
+	position: relative;
+}
+/*logo*/
+.blz_top {
+	width: 75px;
+	height: 30px;
+	background: url(../in/1_fsbnet_icon-sprite.png) -18px 86px;
+	position: absolute;
+	left: 54px;
+	top: 2px;
+	z-index: 1;
+	margin-right: 35px;
+}
+/*顶栏*/
+.top_a {
+	width: 100%;
+	height: 40px;
+	background-color:rgba(49,57,76,.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.top_a .one {
+	position: absolute;
+	left: 40px;
+	top: -1px;
+}
+.top_a .two {
+	position: absolute;
+	left: 40px;
+	top: -1px;
+}
+.top_a .three {
+	position: absolute;
+	left: 40px;
+	top: -1px;
+}
+.top_l {
+	position: absolute;
+	left: 150px;
+	top: 2px;
+}
+.top_l li {
+	line-height: 30px;
+	float: left;
+	width: 80px;
+}
+.top_l li a, .top_r li a  {
+	color: #d4d3d9;
+}
+.top_r {
+	position: absolute;
+	left: 1130px;
+	top: 2px;
+}
+.top_r li {
+	line-height: 30px;
+	float: left;
+	width: 92px;
+}
+/*中导航栏*/
+.mid_nav {
+	height: 62px;
+	background-color: rgba(49,57,76,.9);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-left: 20px;
+	position: absolute;
+	top: 63px;
+	box-shadow: 0px 1px 1px 0px black;
+}
+.mid_nav li {
+	float: left;
+	line-height: 62px;
+	margin-right: 48px;
+}
+.mid_nav li:last-child {
+	width: 99px;
+	text-align: center;
+	float: right;
+	background-color: #f7931e;
+	margin-left: 120px;
+	margin-right: 0px;
+}
+.mid_nav li:last-child a {
+	color: #fff;
+}
+.mid_nav li a {
+	color: #e0e3e8;
+}
+.mid_nav li:nth-child(2) span {
+	position: absolute;
+	left: 310px;
+	top: 0px;
+}
+.mid_nav li:nth-child(4) span {
+	position: absolute;
+	left: 471px;
+	top: 0px;
+}
+/*视频悬浮logo内容*/
+.mid_logo {
+	position: absolute;
+	left: 518px;
+	top: 165px;
+}
+.mid_logo img {
+	height: 185px;
+}
+.mid_ch img {
+	height: 109px;
+} 
+.all_mid {
+	position: absolute;
+	left: 594px;
+	top: 350px;
+}
+
+.buy {
+	width: 162px;
+	height: 36px;
+	background-color: #ff9c00;
+}
+.js {
+	width: 160px;
+	height: 34px;
+	border: 1px solid #fff;
+}
+.buy, .js {
+	margin: 16px auto;
+	line-height: 36px;
+	text-align: center;
+}
+.buy a, .js a {
+	color: #fff;
+}
+.js span {
+	display: inline-block;
+	height: 0px;
+	width: 0px;
+	border: 9px solid #fff;
+	border-color:  transparent  transparent transparent #fff; 
+	position: absolute;
+	left: 40px;
+	top: 77px;
+}
+.js a {
+	display: inline-block;
+	position: absolute;
+	left: 56px;
+	top: 67px;
+}
+.mid_ch {
+	position: absolute;
+	left: 1190px;
+	top: 590px;
+}
+/*banner结束*/
+/*版心*/
+.wrapper {
+	width: 100%;
+	height: 511px;
+	background-color: #f0edf2;
+	text-align: center;
+	position: relative;
+}
+.new {
+	display: block;
+	font-size: 30px;
+	color: #405275;
+	padding-top: 30px;
+	margin: 35px auto;
+}
+.allnew {
+	font-size: 27px;
+	font-weight: 700;
+	color: #00a5e2;
+	display: block;
+	width: 302px;
+	height: 43px;
+	line-height: 43px;
+	border: solid 3px #00a5e2;
+	margin: 0 auto;
+	margin-top: 43px;
+}
+.new_bljt img, .new_sg img {
+	width: 570px;
+	border-radius: 4px; 
+}
+.new_bljt, .new_sg {
+	display: inline-block;
+	width: 570px;
+	margin:0 13px;
+}
+/*版心1结束*/
+.wsky {
+	width: 100%;
+	height: 1025px;
+	background: url(../in/1_assets_img_pages_home_fight-for-the-future_london-2560.jpg) no-repeat;
+	background-size: 100% 1025px;
+	padding: 100px 0;
+	box-sizing: border-box;
+}
+.text_mid {
+	width: 80%;
+	margin: 0 auto;
+}
+.wsky p {
+	color: #f0edf2;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 55px;
+}
+.wsky p:first-child {
+	font-size: 70px;
+	margin-bottom: 62px;
+}
+.wsky p:last-child {
+	margin-bottom: 0;
+}
+.tsyx {
+	display: block;
+	background-color: #ff9c00;
+	color: #fefefe;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+}
+.hero {
+	padding-top: 96px;
+	width: 100%;
+	height: 1394px;
+	margin-bottom: 220px;
+	background: url(../in/1_assets_img_pages_home_candy.jpg) no-repeat;
+	background-size: 100% 1394px;
+	position: relative;
+	z-index: 1;
+}
+
+.hero>p:first-child {
+	font-size: 70px;
+	color: #3d608d;
+	text-align: center;
+	height: 160px;
+}
+.hero>p:nth-child(2), .hero>p:nth-child(3) {
+	color: #405275;
+	font-size: 26px;
+	text-align: center;
+	height: 47px;
+}
+.big_pic{
+	display: inline-block;
+	width: 375px;
+	height: 764px;
+	margin: 0 379px;
+	margin-right: 0;
+}
+.bei {
+	width: 100%;
+	height: 200px;
+	background-color: #555e72;
+	position: absolute;
+	left: 0px;
+	top: 540px;
+	z-index: -1;
+}
+.big_pic .big_js{
+	width: 421px;
+	height: 135px;
+	position: absolute; 
+	left: 910px;
+	top: 576px;
+}
+.hero .big_js p {
+	color: #f0edf2;
+}
+.hero .big_js p:first-child {
+	font-size: 70px;
+}
+.hero .big_js p:last-child {
+
+}
+.h_t, .h_d {
+	text-align: center;
+}
+.h_t img, .h_d img {
+	display: block;
+	width: 73px;
+	height: 85px;
+	border-radius: 4px;
+}
+.hero li {
+	display: inline-block;
+	width: 73px;
+	height: 85px;
+	background-color: #474646;
+	transform: skewX(-9deg);
+	border-radius: 4px;
+	box-shadow: 3px 0 3px rgba(0,0,0,.5);
+	margin-right: 12px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+/*版心2结束*/
+.foot {
+	background: url(../in/1_assets_img_bg-museum.jpg);
+	background-size: 100%;
+	height: 650px;
+	width: 100%;
+	position: relative;
+
+}
+.big_bh img {
+	height: 1000px;
+	position: absolute;
+	left: 106px;
+	top: -131px;
+}
+.big_bh_r p {
+	text-align: center;
+	font-size: 70px;
+	color: #3e6290;
+	height: 95px;
+}
+.big_bh_r {
+	position: absolute;
+	left: 640px;
+	top: 155px;
+}
+.big_bh_r p:last-child {
+	font-size: 27px;
+}
+.big_bh_d a {
+	display: block;
+	width: 196px;
+	height: 57px;
+	font-size: 30px;
+	line-height: 57px;
+	color: #fefefe;
+	text-align: center;
+	background-color: #ff9c00;
+}
+.big_bh_d {
+	position: absolute;
+	left: 860px;
+	top: 450px;
+}
+/*foot结束*/
+.footer {
+	height: 358px;
+	background-color: #202020;
+	position: relative;
+	z-index: 1;
+}
+.blzwy {
+	position: absolute;
+	left: 490px;
+	top: 15px;
+}
+.blzwy img {
+	height: 70px;
+	margin-right: 20px;
+}
+.game img {
+	height: 200px;
+}
+.game {
+	position: absolute;
+	left: 58px;
+	top: 140px;
+}
+.fgx {
+	position: absolute;
+	left: 633px;
+	top: 20px;
+	background-color: rgb(100,100,100);
+	height: 60px;
+	width: 1px;
+}
+/*结束*/
